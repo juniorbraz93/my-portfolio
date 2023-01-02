@@ -1,0 +1,18 @@
+:root {
+    /* --cor-bg: #222831; */
+    --cor-secundaria: #acacac;
+    --cor-terciaria: #fff;
+  }
+
+body {
+    background-color: #222831;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+/* code {
+    background-color: #222831;
+
+} */

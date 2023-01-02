@@ -121,4 +121,9 @@ font-size: 18px;
 
 color: #EEEEEE;
 
+:hover{
+    color:  #2ecc71;
+    transition: 0.3s all;
+}
+
 `;

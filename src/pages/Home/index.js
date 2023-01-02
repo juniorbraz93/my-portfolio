@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
 import {
@@ -15,8 +15,9 @@ import {
 import photo from "../../assets/img/eu.png";
 
 
-export default function Home() {
- return (
+class Home extends Component {
+ render() {
+  return (
     <>
       <Container>
         <ContainerIm>
@@ -31,4 +32,7 @@ export default function Home() {
     </>
    
  );
+ }
 }
+
+export default Home;

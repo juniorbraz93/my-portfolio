@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Projects() {
-  return (
-    <div>
-      <h1>Teste Projetos</h1>
-    </div>
-  );
+class Projects extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Teste Projetos</h1>
+      </div>
+    );
+  }
 }
+
+export default Projects;

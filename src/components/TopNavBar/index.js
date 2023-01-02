@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 //  import { FaUserNinja } from "react-icons/fa";
 
 import { Container, ContainerLogo, ContainerTabNavBar, ImgLogo, ContainerBtn, AreaBtn, BtnTabBar } from './style'
-import logo from "../../img/logo-sf.png"
+import logo from "../../assets/img/logo-sf.png"
 
 export default function TopNavBar() {
  return (

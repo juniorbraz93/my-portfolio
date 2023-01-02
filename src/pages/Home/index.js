@@ -12,7 +12,7 @@ import {
   Photo,
 } from './styles';
 
-import photo from "../../img/eu.png";
+import photo from "../../assets/img/eu.png";
 
 
 export default function Home() {

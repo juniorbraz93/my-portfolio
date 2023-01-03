@@ -1,6 +1,8 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const LinksContent = styled.div `
+export const ModalContainer = styled.div ``;
+
+export const ContainerEmail = styled.div `
   max-width: 800px;
   margin: auto;
 `;
@@ -20,4 +22,3 @@ export const Content = styled.a `
   margin: 15px;
   transition: 0.3s ease-in;
 `;
-

@@ -5,13 +5,13 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 
-import TopNavBar from './components/TopNavBar'
+import Sidebar from './components/Sidebar'
 
 
 function RoutesApp() {
   return (
     <BrowserRouter>
-      <TopNavBar />
+      <Sidebar />
       <Routes>
         <Route path='/' element={ <Home />} />
         <Route path='/about' element={<About />} />
